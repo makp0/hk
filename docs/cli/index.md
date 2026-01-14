@@ -4,7 +4,7 @@
 
 **Usage**: `hk [FLAGS] <SUBCOMMAND>`
 
-**Version**: 1.29.0
+**Version**: 1.30.0
 
 - **Usage**: `hk [FLAGS] <SUBCOMMAND>`
 
@@ -82,13 +82,13 @@ Output in JSON format
 - [`hk util check-merge-conflict [--assume-in-merge] <FILES>…`](/cli/util/check-merge-conflict.md)
 - [`hk util check-symlinks <FILES>…`](/cli/util/check-symlinks.md)
 - [`hk util detect-private-key <FILES>…`](/cli/util/detect-private-key.md)
-- [`hk util end-of-file-fixer [-f --fix] <FILES>…`](/cli/util/end-of-file-fixer.md)
+- [`hk util end-of-file-fixer [-d --diff] [-f --fix] <FILES>…`](/cli/util/end-of-file-fixer.md)
 - [`hk util fix-byte-order-marker <FILES>…`](/cli/util/fix-byte-order-marker.md)
-- [`hk util fix-smart-quotes <FILES>…`](/cli/util/fix-smart-quotes.md)
-- [`hk util mixed-line-ending [-f --fix] <FILES>…`](/cli/util/mixed-line-ending.md)
+- [`hk util fix-smart-quotes [--check] [-d --diff] <FILES>…`](/cli/util/fix-smart-quotes.md)
+- [`hk util mixed-line-ending [-d --diff] [-f --fix] <FILES>…`](/cli/util/mixed-line-ending.md)
 - [`hk util no-commit-to-branch [--branch… <BRANCH>]`](/cli/util/no-commit-to-branch.md)
 - [`hk util python-check-ast <FILES>…`](/cli/util/python-check-ast.md)
 - [`hk util python-debug-statements <FILES>…`](/cli/util/python-debug-statements.md)
-- [`hk util trailing-whitespace [-f --fix] <FILES>…`](/cli/util/trailing-whitespace.md)
+- [`hk util trailing-whitespace [-d --diff] [-f --fix] <FILES>…`](/cli/util/trailing-whitespace.md)
 - [`hk validate`](/cli/validate.md)
 - [`hk version`](/cli/version.md)

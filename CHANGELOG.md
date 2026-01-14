@@ -1,5 +1,39 @@
 # Changelog
 
+## [1.30.0](https://github.com/jdx/hk/compare/v1.29.0..v1.30.0) - 2026-01-14
+
+### 🚀 Features
+
+- Give `fix-smart-quotes` util `check_list_files` capabilities by [@thejcannon](https://github.com/thejcannon) in [#584](https://github.com/jdx/hk/pull/584)
+- Add `check_diff` to some `hk util`s by [@thejcannon](https://github.com/thejcannon) in [#583](https://github.com/jdx/hk/pull/583)
+- Add `check_diff` to `fix-smart-quotes` by [@thejcannon](https://github.com/thejcannon) in [#585](https://github.com/jdx/hk/pull/585)
+
+### 🐛 Bug Fixes
+
+- Unset `HK_LIBGIT2` in `nogit` bats tests by [@thejcannon](https://github.com/thejcannon) in [#589](https://github.com/jdx/hk/pull/589)
+- test:bats arg handling by [@thejcannon](https://github.com/thejcannon) in [#592](https://github.com/jdx/hk/pull/592)
+
+### 🚜 Refactor
+
+- Move completely to `mise-tasks` tasks by [@thejcannon](https://github.com/thejcannon) in [#588](https://github.com/jdx/hk/pull/588)
+- Make `pkl/` taskdir by [@thejcannon](https://github.com/thejcannon) in [#590](https://github.com/jdx/hk/pull/590)
+- Generate `pkl/Builtins.pkl` from the builtins by [@thejcannon](https://github.com/thejcannon) in [#591](https://github.com/jdx/hk/pull/591)
+
+### 🧪 Testing
+
+- Add support for tests in subdir of `test/` by [@thejcannon](https://github.com/thejcannon) in [#587](https://github.com/jdx/hk/pull/587)
+
+### 🔍 Other Changes
+
+- skip release-plz workflow on forks by [@joonas](https://github.com/joonas) in [#575](https://github.com/jdx/hk/pull/575)
+- (re)sort entries in Builtins.pkl by [@muzimuzhi](https://github.com/muzimuzhi) in [#580](https://github.com/jdx/hk/pull/580)
+
+### 📦️ Dependency Updates
+
+- update anthropics/claude-code-action digest to 1b8ee3b by [@renovate[bot]](https://github.com/renovate[bot]) in [#578](https://github.com/jdx/hk/pull/578)
+- update rust crate libc to v0.2.180 by [@renovate[bot]](https://github.com/renovate[bot]) in [#579](https://github.com/jdx/hk/pull/579)
+- lock file maintenance by [@renovate[bot]](https://github.com/renovate[bot]) in [#586](https://github.com/jdx/hk/pull/586)
+
 ## [1.29.0](https://github.com/jdx/hk/compare/v1.28.0..v1.29.0) - 2026-01-06
 
 ### 🚀 Features
